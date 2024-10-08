@@ -17,5 +17,5 @@ return
 
 ; Win + 4 to Logoff
 #4::
-Run, logoff
+Run, shutdown /l
 return
