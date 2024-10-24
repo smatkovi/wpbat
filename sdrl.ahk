@@ -1,21 +1,21 @@
-; AutoHotkey script to handle Win + 1, Win + 2, Win + 3, and Win + 4 shortcuts
+; AutoHotkey v2 script to handle Win + 1, Win + 2, Win + 3, and Win + 4 shortcuts
 
 ; Win + 1 to run Firefox Portable
-#1::
-Run, \\schulserver\SMATKOVICH$\Download\FirefoxPortable\FirefoxPortable.exe
-return
+#1:: {
+    Run("\\schulserver\SMATKOVICH$\Download\FirefoxPortable\FirefoxPortable.exe")
+}
 
 ; Win + 2 to Shutdown
-#2::
-Run, shutdown /s /t 0 /f
-return
+#2:: {
+    Run("shutdown /s /t 0 /f")
+}
 
 ; Win + 3 to Restart
-#3::
-Run, shutdown /r /t 0 /f
-return
+#3:: {
+    Run("shutdown /r /t 0 /f")
+}
 
 ; Win + 4 to Logoff
-#4::
-Run, shutdown /l
-return
+#4:: {
+    Run("shutdown /l")
+}
